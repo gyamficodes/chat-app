@@ -1,12 +1,27 @@
 .md-accent{
-    width: 700px;
-    height: 200px;
+    width: 700px !important;
+    height: 200px !important;
     margin: auto;
 }
 #app{
     height: 100vh !important;
     background: #2d2d2d;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+}
+.ip{
+    width: 700px !important;
+}
+
+.md-app{
+    width: 90%;
+    height: 90%;
+}
+
+.wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }

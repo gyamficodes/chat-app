@@ -6,36 +6,19 @@
     </nav>
     <router-view/>
    -->
-   <LogIn>
-    <md-card  class="md-accent"  md-with-hover>
-      <md-ripple>
-        <md-card-header>
-          <div class="md-title">Authenticstion</div>
-          <div class="md-subhead">Please register to login first</div>
-        </md-card-header>
-
-        <md-card-content>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non.
-        </md-card-content>
-
-        <md-card-actions>
-          <md-button>LOGIN</md-button>
-          <md-button>SIGNUP</md-button>
-        </md-card-actions>
-      </md-ripple>
-    </md-card>
-   </LogIn>
-  </div>
+   <!-- <LogIn/> -->
+<ChatsPage/>
+    </div>
 </template>
 
 <script>
-import LogIn from './components/LogIn.vue';
+import ChatsPage from '@/components/ChatsPage.vue';
 
  export default {
          name: 'App',
          props:{},
          components:{
-          LogIn
+          ChatsPage
          },
         data(){
             return{
