@@ -14,16 +14,40 @@
   width: 700px !important;
 }
 
-.md-app {
-  width: 90%;
-  height: 90%;
-}
-
 .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+.md-app {
+  width: 90vw;
+  height: 90vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.md-app .navbar {
+  flex: 0 1 10%;
+  background: rgb(0, 140, 255);
+  overflow: hidden;
+  border-bottom: 2px solid #ccc;
+}
+.md-app .chat-area {
+  flex: 0 1 80%;
+  background: #fff;
+  overflow: auto;
+  padding: 40px;
+}
+.md-app .footer {
+  flex: 0 1 10%;
+  background: #f2f3f2;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 40px;
 }
 
 * {
