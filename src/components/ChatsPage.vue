@@ -2,10 +2,8 @@
     <div class="wrapper">
      <div class="md-app">
         <div class="navbar">
-<div class="container">
-    <span style="color: #fff;">my title</span>
-
-</div>        </div>
+            <span style="color: #fff;">my title</span>
+        </div>
         <div class="chat-area"></div>
         <div class="footer"></div>
      </div>
