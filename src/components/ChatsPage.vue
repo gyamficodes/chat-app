@@ -7,7 +7,9 @@
         <div class="chat-area">
             <MessagePage/>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            <SendMessage/>
+        </div>
      </div>
     </div>
    
@@ -15,12 +17,13 @@
 
 <script>
 import MessagePage from '@/components/MessagePage.vue';
-
+import SendMessage from '@/components/SendMessage.vue';
 
     export default {
         name:'ChatsPage',
         components:{
             MessagePage,
+            SendMessage,
         },
         props:[],
         data(){
