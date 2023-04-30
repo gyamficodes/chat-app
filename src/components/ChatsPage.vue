@@ -4,7 +4,9 @@
         <div class="navbar">
             <span style="color: #fff;">my title</span>
         </div>
-        <div class="chat-area"></div>
+        <div class="chat-area">
+            <MessagePage/>
+        </div>
         <div class="footer"></div>
      </div>
     </div>
@@ -12,10 +14,14 @@
 </template>
 
 <script>
+import MessagePage from '@/components/MessagePage.vue';
+
 
     export default {
         name:'ChatsPage',
-        components:{},
+        components:{
+            MessagePage,
+        },
         props:[],
         data(){
             return{}

@@ -1,12 +1,14 @@
 <template>
+    <div>
+<!-- avatar -->
+<md-avatar  class="md-avatar-icon md-accent" id="sim">K</md-avatar>
+<!-- message -->
 
-    <!-- avatar -->
-    <!-- message -->
-   <!-- date -->
+<!-- date -->
+    </div>
 </template>
 
 <script>
-
     export default {
         name:'MessagePage',
         components:{},
@@ -20,6 +22,5 @@
     }
 </script>
 
-<style lang="scss">
+<style lang="sass">
 </style>
-
