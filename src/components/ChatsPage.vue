@@ -2,10 +2,10 @@
     <div class="wrapper">
      <div class="md-app">
         <div class="navbar">
-            <span style="color: #fff;">my title</span>
+            <span style="color: #fff; font-size: 20px; text-transform: capitalize;">my title</span>
         </div>
         <div class="chat-area">
-            <MessagePage/>
+          <MessagePage/>
         </div>
         <div class="footer">
             <SendMessage/>

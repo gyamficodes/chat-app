@@ -1,10 +1,17 @@
 <template>
       
-    <div class="textA" style="display: flex; align-items: center; justify-content: center;height: 100%;">
+    <div class="textA" >
+     <div class="text">
         <md-field>
-      <label>Autogrow</label>
-      <md-textarea v-model="autogrow" md-autogrow md-counter="200"></md-textarea>
+      <label>Say hi...</label>
+      <md-textarea   v-model="message"   md-counter="200" ></md-textarea>
     </md-field>
+     </div>
+    
+    <div class="btn">
+    <span  class=" material-icons" style="margin-top: 30px; cursor:pointer; color:blue;">send</span>
+    </div>
+
     </div>
 </template>
 
@@ -15,7 +22,9 @@
         components:{},
         props:[],
         data(){
-            return{}
+            return{
+                message: '',
+            }
         },
         computed:{},
         mounted(){},
@@ -23,6 +32,6 @@
     }
 </script>
 
-<style lang="sass" scoped>
-
+<style lang="scss">
+@import'../assets/CSS/SendMessage';
 </style>
